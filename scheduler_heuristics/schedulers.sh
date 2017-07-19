@@ -15,20 +15,18 @@
 #
 # See the GNU Lesser General Public License in COPYING.LGPL for more details.
 
-. /home/alecrim/devel/starpu_env.sh
-export STARPU_PATH=/home/alecrim/starpu
+#FIXME - CONFIGURE STARPU_PATH 
+
+export | grep STARPU
 export PKG_CONFIG_PATH=$STARPU_PATH/lib/pkgconfig
 export LD_LIBRARY_PATH=$STARPU_PATH/lib
-export PATH=$PATH:/home/alecrim/devel
-export STARPU_NCUDA=1
-export | grep STARPU
+
 
 i=1 ; while [ -d result$i ]; do i=$((i+1)) ; done; 
 export OUTPUTFOLDER="result$i"
 /bin/mkdir $OUTPUTFOLDER
 echo "Results to folder: $OUTPUTFOLDER"
 
-STARPU_PATH="/home/alecrim/starpu"
 date
 
 check_success()
