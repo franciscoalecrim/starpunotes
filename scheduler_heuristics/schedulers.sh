@@ -15,11 +15,19 @@
 #
 # See the GNU Lesser General Public License in COPYING.LGPL for more details.
 
-#FIXME - CONFIGURE STARPU_PATH 
-
 export | grep STARPU
-export PKG_CONFIG_PATH=$STARPU_PATH/lib/pkgconfig
-export LD_LIBRARY_PATH=$STARPU_PATH/lib
+
+SLEEP_SECS=20
+
+if [[ ! -v STARPU_PATH ]]; then
+    echo "Environment variables are not set. Use starpu_env.sh "
+    exit 1
+elif [[ -z "$STARPU_PATH" ]]; then
+    echo "Environment variables are not set. Use starpu_env.sh "
+    exit 1
+else
+    echo "STARPU_PATH has the value: $STARPU_PATH"
+fi
 
 
 i=1 ; while [ -d result$i ]; do i=$((i+1)) ; done; 
@@ -52,22 +60,30 @@ do
 			CORETYPES=`cat coretypes.in`
 			for CORETYPE in $CORETYPES
 			do	
-				sleep 20
+				sleep $SLEEP_SECS
 				date
 				PROFILE="$CORETYPE"_"$sched"_"$BASE"_"$FREQ"
 				echo $PROFILE
-				. $CORETYPE
-				export | grep STARPU	
-
-				bash ./$FREQ >> "$DATETIMES"_"$PROFILE"_log.info
 				rm  /tmp/prof_file_${USER}_0 > /dev/null 2>&1
-				echo "$PROFILE"
 
+				# CORE TYPE
+				. ./$STARPU_CONFIG_FOLDER/$CORETYPE
+
+				# FREQUENCY TYPE 
+				bash ./$STARPU_CONFIG_FOLDER/$FREQ >> "$DATETIMES"_"$PROFILE"_log.info
+								
+				# START METRICS
 				bash $PWD/metrics.sh $PROFILE $DATETIMES & 
+				
+				# SCHED AND EXECUTE APP
+				export | grep STARPU
 				STARPU_SCHED="$sched" "$APP"
 				check_success $?
+				
+				# STOP METRICS
 				rm -f /tmp/metrics.tmp
 
+				# SAVE RESULTS
 				sleep 1 
 				$STARPU_PATH/bin/starpu_fxt_tool -i /tmp/prof_file_${USER}_0
 				mv /tmp/prof_file_${USER}_0 "$OUTPUTFOLDER"/"$DATETIMES"_profile_"$PROFILE"
@@ -75,6 +91,9 @@ do
 				mv *.log "$OUTPUTFOLDER"/.
 				mv *_log.info "$OUTPUTFOLDER"/.
 				date
+
+				#clean up
+				rm -f activity.data dag.dot data.rec distrib.data tasks.rec trace.html trace.rec
 			done
 		done
 	done

@@ -1,4 +1,5 @@
 export STARPU_PATH=/home/alecrim/starpu
+export STARPU_CONFIG_FOLDER="config_cuda" 
 export PKG_CONFIG_PATH=$STARPU_PATH/lib/pkgconfig
 export LD_LIBRARY_PATH=$STARPU_PATH/lib
 export PATH=$PATH:/home/alecrim/devel

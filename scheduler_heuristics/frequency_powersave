@@ -1,5 +1,0 @@
-sudo powertop --auto-tune
-sudo cpupower frequency-set -g powersave
-cpupower frequency-info
-nvidia-settings -a [gpu:0]/GPUPowerMizerMode=0 > /dev/null
-nvidia-settings -q all
