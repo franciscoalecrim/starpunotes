@@ -1,0 +1,4 @@
+sudo cpupower frequency-set -g performance
+cpupower frequency-info
+nvidia-settings -a [gpu:0]/GPUPowerMizerMode=2 > /dev/null
+nvidia-settings -q all

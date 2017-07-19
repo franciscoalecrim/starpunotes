@@ -1,0 +1,4861 @@
+JobId: 7
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 6
+DependsOn: 7
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 9
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 8
+DependsOn: 9
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 11
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 10
+DependsOn: 11
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 13
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 12
+DependsOn: 13
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 15
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 14
+DependsOn: 15
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 17
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 16
+DependsOn: 17
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 19
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 18
+DependsOn: 19
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 21
+DependsOn: 22
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 22
+DependsOn: 20
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 20
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.356749
+StartTime: 856.498410
+EndTime: 1096.129270
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 24
+DependsOn: 25
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 25
+DependsOn: 23
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 23
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.372255
+StartTime: 1096.151585
+EndTime: 1335.682460
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 27
+DependsOn: 28
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 28
+DependsOn: 26
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 26
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.379401
+StartTime: 1335.702547
+EndTime: 1575.277295
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 30
+DependsOn: 31
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 31
+DependsOn: 29
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 29
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.387814
+StartTime: 1575.311948
+EndTime: 1814.871632
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 33
+DependsOn: 34
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 34
+DependsOn: 32
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 32
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.392215
+StartTime: 1814.884809
+EndTime: 2054.459103
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 36
+DependsOn: 37
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 37
+DependsOn: 35
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 35
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.395847
+StartTime: 2054.470055
+EndTime: 2294.007029
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 39
+DependsOn: 40
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 40
+DependsOn: 38
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 38
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.405440
+StartTime: 2294.017850
+EndTime: 2533.544683
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 42
+DependsOn: 43
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 43
+DependsOn: 41
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 41
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.410753
+StartTime: 2533.554450
+EndTime: 2773.148585
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 45
+DependsOn: 46
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 46
+DependsOn: 44
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 44
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.415066
+StartTime: 2773.256407
+EndTime: 3012.607126
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 48
+DependsOn: 49
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 49
+DependsOn: 47
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 47
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.418569
+StartTime: 3012.628352
+EndTime: 3252.146683
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 51
+DependsOn: 52
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 52
+DependsOn: 50
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 50
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.422643
+StartTime: 3252.157761
+EndTime: 3491.688205
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 54
+DependsOn: 55
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 55
+DependsOn: 53
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 53
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.426948
+StartTime: 3491.698025
+EndTime: 3731.271826
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 57
+DependsOn: 58
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 58
+DependsOn: 56
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 56
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.431318
+StartTime: 3731.282353
+EndTime: 3970.828532
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 60
+DependsOn: 61
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 61
+DependsOn: 59
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 59
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.435580
+StartTime: 3970.846877
+EndTime: 4210.392414
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 63
+DependsOn: 64
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 64
+DependsOn: 62
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 62
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.439706
+StartTime: 4210.415690
+EndTime: 4449.949235
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 66
+DependsOn: 67
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 67
+DependsOn: 65
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 65
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 817.443984
+StartTime: 4449.969021
+EndTime: 4689.565428
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 69
+DependsOn: 70
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 70
+DependsOn: 68 21
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 68
+DependsOn: 21
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.631858
+StartTime: 4689.644635
+EndTime: 4929.271449
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 72
+DependsOn: 73
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 73
+DependsOn: 71 24
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 71
+DependsOn: 24
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.644732
+StartTime: 4929.282528
+EndTime: 5168.845705
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 75
+DependsOn: 76
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 76
+DependsOn: 74 27
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 74
+DependsOn: 27
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.650713
+StartTime: 5168.856096
+EndTime: 5408.434428
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 78
+DependsOn: 79
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 79
+DependsOn: 77 30
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 77
+DependsOn: 30
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.655900
+StartTime: 5408.463397
+EndTime: 5647.984711
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 81
+DependsOn: 82
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 82
+DependsOn: 80 33
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 80
+DependsOn: 33
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.660337
+StartTime: 5648.007864
+EndTime: 5887.566470
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 84
+DependsOn: 85
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 85
+DependsOn: 83 36
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 83
+DependsOn: 36
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.664998
+StartTime: 5887.577885
+EndTime: 6127.123598
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 87
+DependsOn: 88
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 88
+DependsOn: 86 39
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 86
+DependsOn: 39
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.669740
+StartTime: 6127.133115
+EndTime: 6366.706830
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 90
+DependsOn: 91
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 91
+DependsOn: 89 42
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 89
+DependsOn: 42
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.674320
+StartTime: 6366.715467
+EndTime: 6606.248391
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 93
+DependsOn: 94
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 94
+DependsOn: 92 45
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 92
+DependsOn: 45
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.678620
+StartTime: 6606.266554
+EndTime: 6845.816271
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 96
+DependsOn: 97
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 97
+DependsOn: 95 48
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 95
+DependsOn: 48
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.682785
+StartTime: 6845.840414
+EndTime: 7085.362814
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 99
+DependsOn: 100
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 100
+DependsOn: 98 51
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 98
+DependsOn: 51
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.687222
+StartTime: 7085.384712
+EndTime: 7324.913715
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 102
+DependsOn: 103
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 103
+DependsOn: 101 54
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 101
+DependsOn: 54
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.691971
+StartTime: 7324.924374
+EndTime: 7564.435053
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 105
+DependsOn: 106
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 106
+DependsOn: 104 57
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 104
+DependsOn: 57
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.696450
+StartTime: 7564.444379
+EndTime: 7803.973053
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 108
+DependsOn: 109
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 109
+DependsOn: 107 60
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 107
+DependsOn: 60
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.700584
+StartTime: 7803.982154
+EndTime: 8043.545071
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 111
+DependsOn: 112
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 112
+DependsOn: 110 63
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 110
+DependsOn: 63
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.704659
+StartTime: 8043.574594
+EndTime: 8283.085144
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 114
+DependsOn: 115
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 115
+DependsOn: 113 66
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 113
+DependsOn: 66
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 4689.721883
+StartTime: 8283.106999
+EndTime: 8522.594087
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 117
+DependsOn: 118
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 118
+DependsOn: 116 69
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 116
+DependsOn: 69
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.657779
+StartTime: 8522.671326
+EndTime: 8762.377321
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 120
+DependsOn: 121
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 121
+DependsOn: 119 72
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 119
+DependsOn: 72
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.669762
+StartTime: 8762.386893
+EndTime: 9001.927745
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 123
+DependsOn: 124
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 124
+DependsOn: 122 75
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 122
+DependsOn: 75
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.675656
+StartTime: 9001.936300
+EndTime: 9241.594525
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 126
+DependsOn: 127
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 127
+DependsOn: 125 78
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 125
+DependsOn: 78
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.680097
+StartTime: 9241.614118
+EndTime: 9481.190472
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 129
+DependsOn: 130
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 130
+DependsOn: 128 81
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 128
+DependsOn: 81
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.684773
+StartTime: 9481.214447
+EndTime: 9720.711715
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 132
+DependsOn: 133
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 133
+DependsOn: 131 84
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 131
+DependsOn: 84
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.689610
+StartTime: 9720.732116
+EndTime: 9960.271271
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 135
+DependsOn: 136
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 136
+DependsOn: 134 87
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 134
+DependsOn: 87
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.693928
+StartTime: 9960.282150
+EndTime: 10199.844339
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 138
+DependsOn: 139
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 139
+DependsOn: 137 90
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 137
+DependsOn: 90
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.698233
+StartTime: 10199.855266
+EndTime: 10439.386912
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 141
+DependsOn: 142
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 142
+DependsOn: 140 93
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 140
+DependsOn: 93
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.702539
+StartTime: 10439.396456
+EndTime: 10678.983495
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 144
+DependsOn: 145
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 145
+DependsOn: 143 96
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 143
+DependsOn: 96
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.706807
+StartTime: 10679.083642
+EndTime: 10918.508300
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 147
+DependsOn: 148
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 148
+DependsOn: 146 99
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 146
+DependsOn: 99
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.723987
+StartTime: 10918.530382
+EndTime: 11158.062974
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 150
+DependsOn: 151
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 151
+DependsOn: 149 102
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 149
+DependsOn: 102
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.728417
+StartTime: 11158.073800
+EndTime: 11397.620929
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 153
+DependsOn: 154
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 154
+DependsOn: 152 105
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 152
+DependsOn: 105
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.733284
+StartTime: 11397.630254
+EndTime: 11637.190120
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 156
+DependsOn: 157
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 157
+DependsOn: 155 108
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 155
+DependsOn: 108
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.737399
+StartTime: 11637.199339
+EndTime: 11876.708803
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 159
+DependsOn: 160
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 160
+DependsOn: 158 111
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 158
+DependsOn: 111
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.741565
+StartTime: 11876.726637
+EndTime: 12116.332475
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 162
+DependsOn: 163
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 163
+DependsOn: 161 114
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 161
+DependsOn: 114
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 8522.745659
+StartTime: 12116.455006
+EndTime: 12355.810973
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 165
+DependsOn: 166
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 166
+DependsOn: 164 117
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 164
+DependsOn: 117
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.893220
+StartTime: 12355.911648
+EndTime: 12595.466090
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 168
+DependsOn: 169
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 169
+DependsOn: 167 120
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 167
+DependsOn: 120
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.907457
+StartTime: 12595.476535
+EndTime: 12835.022040
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 171
+DependsOn: 172
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 172
+DependsOn: 170 123
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 170
+DependsOn: 123
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.913043
+StartTime: 12835.031467
+EndTime: 13074.585448
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 174
+DependsOn: 175
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 175
+DependsOn: 173 126
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 173
+DependsOn: 126
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.918345
+StartTime: 13074.595633
+EndTime: 13314.142229
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 177
+DependsOn: 178
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 178
+DependsOn: 176 129
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 176
+DependsOn: 129
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.922789
+StartTime: 13314.169409
+EndTime: 13553.679838
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 180
+DependsOn: 181
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 181
+DependsOn: 179 132
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 179
+DependsOn: 132
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.927250
+StartTime: 13553.702219
+EndTime: 13793.219484
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 183
+DependsOn: 184
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 184
+DependsOn: 182 135
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 182
+DependsOn: 135
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.931856
+StartTime: 13793.239115
+EndTime: 14032.743419
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 186
+DependsOn: 187
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 187
+DependsOn: 185 138
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 185
+DependsOn: 138
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.936221
+StartTime: 14032.753651
+EndTime: 14272.297768
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 189
+DependsOn: 190
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 190
+DependsOn: 188 141
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 188
+DependsOn: 141
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.940400
+StartTime: 14272.307187
+EndTime: 14511.854229
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 192
+DependsOn: 193
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 193
+DependsOn: 191 144
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 191
+DependsOn: 144
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.944481
+StartTime: 14511.864212
+EndTime: 14751.449279
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 195
+DependsOn: 196
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 196
+DependsOn: 194 147
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 194
+DependsOn: 147
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.948522
+StartTime: 14751.472381
+EndTime: 14990.999852
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 198
+DependsOn: 199
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 199
+DependsOn: 197 150
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 197
+DependsOn: 150
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.952765
+StartTime: 14991.021918
+EndTime: 15230.553227
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 201
+DependsOn: 202
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 202
+DependsOn: 200 153
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 200
+DependsOn: 153
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.957633
+StartTime: 15230.563693
+EndTime: 15470.095849
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 204
+DependsOn: 205
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 205
+DependsOn: 203 156
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 203
+DependsOn: 156
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.962384
+StartTime: 15470.105701
+EndTime: 15709.689798
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 207
+DependsOn: 208
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 208
+DependsOn: 206 159
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 206
+DependsOn: 159
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.966695
+StartTime: 15709.698851
+EndTime: 15949.245330
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 210
+DependsOn: 211
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 211
+DependsOn: 209 162
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 209
+DependsOn: 162
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 12355.970830
+StartTime: 15949.263484
+EndTime: 16188.860899
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 213
+DependsOn: 214
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 214
+DependsOn: 212 165
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 212
+DependsOn: 165
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.080193
+StartTime: 16189.256791
+EndTime: 16429.029061
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 216
+DependsOn: 217
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 217
+DependsOn: 215 168
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 215
+DependsOn: 168
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.146589
+StartTime: 16429.050274
+EndTime: 16668.580767
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 219
+DependsOn: 220
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 220
+DependsOn: 218 171
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 218
+DependsOn: 171
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.178832
+StartTime: 16668.594162
+EndTime: 16908.102585
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 222
+DependsOn: 223
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 223
+DependsOn: 221 174
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 221
+DependsOn: 174
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.240652
+StartTime: 16908.111944
+EndTime: 17147.644963
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 225
+DependsOn: 226
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 226
+DependsOn: 224 177
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 224
+DependsOn: 177
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.272348
+StartTime: 17147.657228
+EndTime: 17387.232712
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 228
+DependsOn: 229
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 229
+DependsOn: 227 180
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 227
+DependsOn: 180
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.306249
+StartTime: 17387.260697
+EndTime: 17626.778912
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 231
+DependsOn: 232
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 232
+DependsOn: 230 183
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 230
+DependsOn: 183
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.334318
+StartTime: 17626.801865
+EndTime: 17866.338313
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 234
+DependsOn: 235
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 235
+DependsOn: 233 186
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 233
+DependsOn: 186
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.362536
+StartTime: 17866.348511
+EndTime: 18105.907713
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 237
+DependsOn: 238
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 238
+DependsOn: 236 189
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 236
+DependsOn: 189
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.391152
+StartTime: 18105.917170
+EndTime: 18345.468348
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 240
+DependsOn: 241
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 241
+DependsOn: 239 192
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 239
+DependsOn: 192
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.419291
+StartTime: 18345.478334
+EndTime: 18585.098114
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 243
+DependsOn: 244
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 244
+DependsOn: 242 195
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 242
+DependsOn: 195
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.447354
+StartTime: 18585.194081
+EndTime: 18824.619745
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 246
+DependsOn: 247
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 247
+DependsOn: 245 198
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 245
+DependsOn: 198
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.475630
+StartTime: 18824.646097
+EndTime: 19064.178379
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 249
+DependsOn: 250
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 250
+DependsOn: 248 201
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 248
+DependsOn: 201
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.504056
+StartTime: 19064.200273
+EndTime: 19303.703760
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 252
+DependsOn: 253
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 253
+DependsOn: 251 204
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 251
+DependsOn: 204
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.532589
+StartTime: 19303.715641
+EndTime: 19543.272871
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 255
+DependsOn: 256
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 256
+DependsOn: 254 207
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 254
+DependsOn: 207
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.563181
+StartTime: 19543.282357
+EndTime: 19782.866134
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 258
+DependsOn: 259
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 259
+DependsOn: 257 210
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 257
+DependsOn: 210
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 16189.591777
+StartTime: 19782.876434
+EndTime: 20022.425302
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 261
+DependsOn: 262
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 262
+DependsOn: 260 213
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 260
+DependsOn: 213
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.494965
+StartTime: 20022.509112
+EndTime: 20262.185909
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 264
+DependsOn: 265
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 265
+DependsOn: 263 216
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 263
+DependsOn: 216
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.507394
+StartTime: 20262.209846
+EndTime: 20501.718285
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 267
+DependsOn: 268
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 268
+DependsOn: 266 219
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 266
+DependsOn: 219
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.513614
+StartTime: 20501.729484
+EndTime: 20741.235301
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 270
+DependsOn: 271
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 271
+DependsOn: 269 222
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 269
+DependsOn: 222
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.519050
+StartTime: 20741.245011
+EndTime: 20980.786112
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 273
+DependsOn: 274
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 274
+DependsOn: 272 225
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 272
+DependsOn: 225
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.536571
+StartTime: 20980.796467
+EndTime: 21220.293935
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 276
+DependsOn: 277
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 277
+DependsOn: 275 228
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 275
+DependsOn: 228
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.541394
+StartTime: 21220.303668
+EndTime: 21459.910564
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 279
+DependsOn: 280
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 280
+DependsOn: 278 231
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 278
+DependsOn: 231
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.545956
+StartTime: 21459.939076
+EndTime: 21699.515006
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 282
+DependsOn: 283
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 283
+DependsOn: 281 234
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 281
+DependsOn: 234
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.550208
+StartTime: 21699.538385
+EndTime: 21939.084086
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 285
+DependsOn: 286
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 286
+DependsOn: 284 237
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 284
+DependsOn: 237
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.554342
+StartTime: 21939.095864
+EndTime: 22178.659285
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 288
+DependsOn: 289
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 289
+DependsOn: 287 240
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 287
+DependsOn: 240
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.558425
+StartTime: 22178.670136
+EndTime: 22418.219903
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 291
+DependsOn: 292
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 292
+DependsOn: 290 243
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 290
+DependsOn: 243
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.562938
+StartTime: 22418.229043
+EndTime: 22657.797645
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 294
+DependsOn: 295
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 295
+DependsOn: 293 246
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 293
+DependsOn: 246
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.567435
+StartTime: 22657.816982
+EndTime: 22899.830531
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 297
+DependsOn: 298
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 298
+DependsOn: 296 249
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 296
+DependsOn: 249
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.572403
+StartTime: 22899.968207
+EndTime: 23141.898193
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 300
+DependsOn: 301
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 301
+DependsOn: 299 252
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 299
+DependsOn: 252
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.576541
+StartTime: 23142.034636
+EndTime: 23388.261381
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 303
+DependsOn: 304
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 304
+DependsOn: 302 255
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 302
+DependsOn: 255
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.580649
+StartTime: 23388.286322
+EndTime: 23627.835615
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 306
+DependsOn: 307
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 307
+DependsOn: 305 258
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 305
+DependsOn: 258
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 20022.584726
+StartTime: 23627.856784
+EndTime: 23867.361064
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 309
+DependsOn: 310
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 310
+DependsOn: 308 261
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 308
+DependsOn: 261
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.424231
+StartTime: 23867.438045
+EndTime: 24107.008746
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 312
+DependsOn: 313
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 313
+DependsOn: 311 264
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 311
+DependsOn: 264
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.436468
+StartTime: 24107.019969
+EndTime: 24346.577348
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 315
+DependsOn: 316
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 316
+DependsOn: 314 267
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 314
+DependsOn: 267
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.441943
+StartTime: 24346.586762
+EndTime: 24586.200839
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 318
+DependsOn: 319
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 319
+DependsOn: 317 270
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 317
+DependsOn: 270
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.459625
+StartTime: 24586.325987
+EndTime: 24825.684313
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 321
+DependsOn: 322
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 322
+DependsOn: 320 273
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 320
+DependsOn: 273
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.464155
+StartTime: 24825.707669
+EndTime: 25065.219057
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 324
+DependsOn: 325
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 325
+DependsOn: 323 276
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 323
+DependsOn: 276
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.468743
+StartTime: 25065.230141
+EndTime: 25304.813833
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 327
+DependsOn: 328
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 328
+DependsOn: 326 279
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 326
+DependsOn: 279
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.472887
+StartTime: 25304.823815
+EndTime: 25544.353455
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 330
+DependsOn: 331
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 331
+DependsOn: 329 282
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 329
+DependsOn: 282
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.476961
+StartTime: 25544.362107
+EndTime: 25783.990413
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 333
+DependsOn: 334
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 334
+DependsOn: 332 285
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 332
+DependsOn: 285
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.481209
+StartTime: 25784.125214
+EndTime: 26023.512174
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 336
+DependsOn: 337
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 337
+DependsOn: 335 288
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 335
+DependsOn: 288
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.485396
+StartTime: 26023.540296
+EndTime: 26263.054851
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 339
+DependsOn: 340
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 340
+DependsOn: 338 291
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 338
+DependsOn: 291
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.489425
+StartTime: 26263.076121
+EndTime: 26502.589696
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 342
+DependsOn: 343
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 343
+DependsOn: 341 294
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 341
+DependsOn: 294
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.493908
+StartTime: 26502.599720
+EndTime: 26742.158085
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 345
+DependsOn: 346
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 346
+DependsOn: 344 297
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 344
+DependsOn: 297
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.498804
+StartTime: 26742.167281
+EndTime: 26981.745098
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 348
+DependsOn: 349
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 349
+DependsOn: 347 300
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 347
+DependsOn: 300
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.502843
+StartTime: 26981.754216
+EndTime: 27221.305473
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 351
+DependsOn: 352
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 352
+DependsOn: 350 303
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 350
+DependsOn: 303
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.506874
+StartTime: 27221.325776
+EndTime: 27460.888417
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 354
+DependsOn: 355
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 355
+DependsOn: 353 306
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 353
+DependsOn: 306
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 23867.510928
+StartTime: 27460.913823
+EndTime: 27700.445038
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 357
+DependsOn: 358
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 358
+DependsOn: 356 309
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 356
+DependsOn: 309
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.514161
+StartTime: 27700.545521
+EndTime: 27940.173996
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 360
+DependsOn: 361
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 361
+DependsOn: 359 312
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 359
+DependsOn: 312
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.542058
+StartTime: 27940.183665
+EndTime: 28179.736198
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 363
+DependsOn: 364
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 364
+DependsOn: 362 315
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 362
+DependsOn: 315
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.547542
+StartTime: 28179.747531
+EndTime: 28419.283220
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 366
+DependsOn: 367
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 367
+DependsOn: 365 318
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 365
+DependsOn: 318
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.552481
+StartTime: 28419.293642
+EndTime: 28658.850651
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 369
+DependsOn: 370
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 370
+DependsOn: 368 321
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 368
+DependsOn: 321
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.556934
+StartTime: 28658.956449
+EndTime: 28898.403914
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 372
+DependsOn: 373
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 373
+DependsOn: 371 324
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 371
+DependsOn: 324
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.561909
+StartTime: 28898.425955
+EndTime: 29137.943345
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 375
+DependsOn: 376
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 376
+DependsOn: 374 327
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 374
+DependsOn: 327
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.566474
+StartTime: 29137.954401
+EndTime: 29377.466647
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 378
+DependsOn: 379
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 379
+DependsOn: 377 330
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 377
+DependsOn: 330
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.570680
+StartTime: 29377.476438
+EndTime: 29617.007766
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 381
+DependsOn: 382
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 382
+DependsOn: 380 333
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 380
+DependsOn: 333
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.574870
+StartTime: 29617.016722
+EndTime: 29856.558075
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 384
+DependsOn: 385
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 385
+DependsOn: 383 336
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 383
+DependsOn: 336
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.579048
+StartTime: 29856.576084
+EndTime: 30096.124663
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 387
+DependsOn: 388
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 388
+DependsOn: 386 339
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 386
+DependsOn: 339
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.582938
+StartTime: 30096.153101
+EndTime: 30335.660700
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 390
+DependsOn: 391
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 391
+DependsOn: 389 342
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 389
+DependsOn: 342
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.587724
+StartTime: 30335.682800
+EndTime: 30575.190823
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 393
+DependsOn: 394
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 394
+DependsOn: 392 345
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 392
+DependsOn: 345
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.593004
+StartTime: 30575.202327
+EndTime: 30814.743723
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 396
+DependsOn: 397
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 397
+DependsOn: 395 348
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 395
+DependsOn: 348
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.597222
+StartTime: 30814.753300
+EndTime: 31054.292456
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 399
+DependsOn: 400
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 400
+DependsOn: 398 351
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 398
+DependsOn: 351
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.601290
+StartTime: 31054.301843
+EndTime: 31293.910734
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 402
+DependsOn: 403
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 403
+DependsOn: 401 354
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 401
+DependsOn: 354
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 27700.605396
+StartTime: 31294.012365
+EndTime: 31533.431520
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 405
+DependsOn: 406
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 406
+DependsOn: 404 357
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 404
+DependsOn: 357
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.503030
+StartTime: 31533.517738
+EndTime: 31773.145733
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 408
+DependsOn: 409
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 409
+DependsOn: 407 360
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 407
+DependsOn: 360
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.515420
+StartTime: 31773.156191
+EndTime: 32012.701138
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 411
+DependsOn: 412
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 412
+DependsOn: 410 363
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 410
+DependsOn: 363
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.520785
+StartTime: 32012.709917
+EndTime: 32252.247788
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 414
+DependsOn: 415
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 415
+DependsOn: 413 366
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 413
+DependsOn: 366
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.525646
+StartTime: 32252.257879
+EndTime: 32491.828468
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 417
+DependsOn: 418
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 418
+DependsOn: 416 369
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 416
+DependsOn: 369
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.543366
+StartTime: 32491.934205
+EndTime: 32731.356022
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 420
+DependsOn: 421
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 421
+DependsOn: 419 372
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 419
+DependsOn: 372
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.547980
+StartTime: 32731.383264
+EndTime: 32970.913764
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 423
+DependsOn: 424
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 424
+DependsOn: 422 375
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 422
+DependsOn: 375
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.552285
+StartTime: 32970.935225
+EndTime: 33210.454122
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 426
+DependsOn: 427
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 427
+DependsOn: 425 378
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 425
+DependsOn: 378
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.556541
+StartTime: 33210.465293
+EndTime: 33450.006350
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 429
+DependsOn: 430
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 430
+DependsOn: 428 381
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 428
+DependsOn: 381
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.560617
+StartTime: 33450.015241
+EndTime: 33689.609756
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 432
+DependsOn: 433
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 433
+DependsOn: 431 384
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 431
+DependsOn: 384
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.564659
+StartTime: 33689.620023
+EndTime: 33929.182794
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 435
+DependsOn: 436
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 436
+DependsOn: 434 387
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 434
+DependsOn: 387
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.568651
+StartTime: 33929.202464
+EndTime: 34168.740895
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 438
+DependsOn: 439
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 439
+DependsOn: 437 390
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 437
+DependsOn: 390
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.572957
+StartTime: 34168.773307
+EndTime: 34408.296476
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 441
+DependsOn: 442
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 442
+DependsOn: 440 393
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 440
+DependsOn: 393
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.577866
+StartTime: 34408.306923
+EndTime: 34647.844763
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 444
+DependsOn: 445
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 445
+DependsOn: 443 396
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 443
+DependsOn: 396
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.582476
+StartTime: 34647.863444
+EndTime: 34887.376009
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 447
+DependsOn: 448
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 448
+DependsOn: 446 399
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 446
+DependsOn: 399
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.586907
+StartTime: 34887.387749
+EndTime: 35126.906784
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 450
+DependsOn: 451
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 451
+DependsOn: 449 402
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 449
+DependsOn: 402
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 31533.591055
+StartTime: 35126.916696
+EndTime: 35366.500750
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 453
+DependsOn: 454
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 454
+DependsOn: 452 405
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 452
+DependsOn: 405
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.565119
+StartTime: 35366.603871
+EndTime: 35606.235190
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c5c50 55801a5cf340
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 456
+DependsOn: 457
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 457
+DependsOn: 455 408
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 455
+DependsOn: 408
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.584655
+StartTime: 35606.256656
+EndTime: 35845.739524
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c5c50 55801a5cffd0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 459
+DependsOn: 460
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 460
+DependsOn: 458 411
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 458
+DependsOn: 411
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.594757
+StartTime: 35845.751065
+EndTime: 36085.284903
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c5c50 55801a5d0c60
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 462
+DependsOn: 463
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 463
+DependsOn: 461 414
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 461
+DependsOn: 414
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.602984
+StartTime: 36085.350288
+EndTime: 36324.809849
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c5c50 55801a5d18f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 465
+DependsOn: 466
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 466
+DependsOn: 464 417
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 464
+DependsOn: 417
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.612184
+StartTime: 36324.877021
+EndTime: 36564.362034
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c68e0 55801a5d2d70
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 468
+DependsOn: 469
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 469
+DependsOn: 467 420
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 467
+DependsOn: 420
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.620498
+StartTime: 36564.458978
+EndTime: 36803.944677
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c68e0 55801a5d3a00
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 471
+DependsOn: 472
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 472
+DependsOn: 470 423
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 470
+DependsOn: 423
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.628529
+StartTime: 36804.099574
+EndTime: 37043.466718
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c68e0 55801a5d4690
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 474
+DependsOn: 475
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 475
+DependsOn: 473 426
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 473
+DependsOn: 426
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.636827
+StartTime: 37043.567113
+EndTime: 37283.028894
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c68e0 55801a5d5320
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 477
+DependsOn: 478
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 478
+DependsOn: 476 429
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 476
+DependsOn: 429
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.645515
+StartTime: 37283.131611
+EndTime: 37522.558108
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c7570 55801a5d70b0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 480
+DependsOn: 481
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 481
+DependsOn: 479 432
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 479
+DependsOn: 432
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.653893
+StartTime: 37522.662025
+EndTime: 37762.085803
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c7570 55801a5d7d40
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 483
+DependsOn: 484
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 484
+DependsOn: 482 435
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 482
+DependsOn: 435
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.662533
+StartTime: 37762.155654
+EndTime: 38001.645937
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c7570 55801a5d89d0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 486
+DependsOn: 487
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 487
+DependsOn: 485 438
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 485
+DependsOn: 438
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.671081
+StartTime: 38001.723776
+EndTime: 38241.206563
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c7570 55801a5d9660
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 489
+DependsOn: 490
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 490
+DependsOn: 488 441
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 488
+DependsOn: 441
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.679386
+StartTime: 38241.276554
+EndTime: 38480.795880
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c8ea0 55801a5c8200 55801a5db3f0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 492
+DependsOn: 493
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 493
+DependsOn: 491 444
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 491
+DependsOn: 444
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.687382
+StartTime: 38480.893355
+EndTime: 38720.361273
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5c9b30 55801a5c8200 55801a5dc080
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 495
+DependsOn: 496
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 496
+DependsOn: 494 447
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 494
+DependsOn: 447
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.695568
+StartTime: 38720.451047
+EndTime: 38959.935584
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5ca7c0 55801a5c8200 55801a5dcd10
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
+JobId: 498
+DependsOn: 499
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+JobId: 499
+DependsOn: 497 450
+Tag: 0
+Footprint: 0
+MPIRank: -1
+
+Name: starpu_dgemm_gemm
+Model: starpu_dgemm_gemm
+JobId: 497
+DependsOn: 450
+Tag: 0
+WorkerId: 0
+MemoryNode: 1
+SubmitTime: 35366.703737
+StartTime: 38960.039011
+EndTime: 39199.482766
+Footprint: 492beed5
+GFlop: 7.077888
+Parameters: M960x3840x8_M3840x960x8_M960x960x8
+Handles: 55801a5cb450 55801a5c8200 55801a5dd9a0
+Modes: R R RW
+Sizes: 29491200 29491200 7372800
+MPIRank: -1
+
