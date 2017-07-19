@@ -1,3 +1,3 @@
-/home/alecrim/devel/StarPU/examples/cholesky/cholesky_implicit.sh 
-/home/alecrim/devel/StarPU/examples/audio/starpu_audio_processing.sh 
-/home/alecrim/starpu/lib/starpu/examples/dgemm
+starpu_audio_processing.sh 
+cholesky_implicit
+dgemm

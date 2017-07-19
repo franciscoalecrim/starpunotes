@@ -48,7 +48,8 @@ check_success()
 DATETIMES=`date +%Y%m%d%H%M%S`
 APPLICATIONS=`cat applications.in`
 for APP in $APPLICATIONS
-do 
+do
+        APP="$STARPU_EXAMPLES_DIR/$APP"
 	BASE=`basename $APP`
 	SCHEDULERS=`cat schedulers.in`
 	for sched in $SCHEDULERS
