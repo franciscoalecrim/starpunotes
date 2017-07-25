@@ -1,2 +1,2 @@
-$STARPU_PATH_AUDIO_FFT_EXAMPLES/starpu_audio_processing -i $STARPU_PATH_AUDIO_FFT_EXAMPLES/input.wav -no-output
+$STARPU_EXAMPLES_DIR/starpu_audio_processing -i $STARPU_EXAMPLES_DIR/input.wav -no-output
 
