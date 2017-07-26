@@ -1,0 +1,4 @@
+export STARPU_NCPU=1
+export STARPU_NCUDA=0
+export STARPU_OPENCL=0
+
