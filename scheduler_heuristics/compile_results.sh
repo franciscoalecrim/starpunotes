@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATETIMES=`date +%Y%m%d%H%M%S`
-RESULTDIR="./"$(ls | grep result | tail -n1)
+RESULTDIR="./"$(ls | grep result | tail -n1)"/"
 RESULTFILE="compiled_result.csv"
 
 function process_profile {

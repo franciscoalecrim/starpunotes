@@ -1,23 +1,6 @@
 #!/bin/bash
 
-# StarPU --- Runtime system for heterogeneous multicore architectures.
-#
-# Copyright (C) 2012, 2014  CNRS
-#
-# StarPU is free software; you can redistribute it and/or modify
-# it under the terms of the GNU Lesser General Public License as published by
-# the Free Software Foundation; either version 2.1 of the License, or (at
-# your option) any later version.
-#
-# StarPU is distributed in the hope that it will be useful, but
-# WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-#
-# See the GNU Lesser General Public License in COPYING.LGPL for more details.
-
 export | grep STARPU
-
-SLEEP_SECS=20
 
 if [[ ! -v STARPU_PATH ]]; then
     echo "Environment variables are not set. Use starpu_env.sh "
@@ -29,24 +12,48 @@ else
     echo "STARPU_PATH has the value: $STARPU_PATH"
 fi
 
-
-i=1 ; while [ -d result$i ]; do i=$((i+1)) ; done; 
-export OUTPUTFOLDER="result$i"
-/bin/mkdir $OUTPUTFOLDER
-echo "Results to folder: $OUTPUTFOLDER"
-
-date
-
 check_success()
 {
 	if [ $1 -ne 0 ] ; then
 		echo "failure" >&2
-		exit $1
+		xset dpms force on
+		while true ; do echo "test finished" | festival --tts ; done 
 	fi
 }
 
+
+#while battery 
+while true ; do 
+
+SLEEP_SECS=20
+BATLEVEL=`cat /sys/class/power_supply/BAT0/uevent | grep POWER_SUPPLY_CAPACITY | head -n1 | cut -f2 -d=`
+CHARGING=`cat /sys/class/power_supply/BAT0/uevent | grep Charging | wc -l`
+if [ $BATLEVEL -le 25 -o $CHARGING -gt 0 ] ; then 
+	echo "Battery is too low or charing";
+	xset dpms force on
+	while true ; do echo "test finished" | festival --tts ; done 
+fi
+
+
+#Create log dir
+rm *.log -rf *.csv
+i=1 ; while [ -d result$i ]; do i=$((i+1)) ; done; 
+export OUTPUTFOLDER="result$i"
+/bin/mkdir $OUTPUTFOLDER
+echo "Results to folder: $OUTPUTFOLDER"
+date
+sudo echo "teste password"
+echo "waiting screen power off" | festival --tts
+#esperando tela apagar
+date | mail -s 'teste iniciado' alecrim@gmail.com 
+sleep 2
+nmcli n off
+sleep 3
+xset dpms force off
+echo "starting tests with screen off" | festival --tts
 DATETIMES=`date +%Y%m%d%H%M%S`
 APPLICATIONS=`cat applications.in`
+
 for APP in $APPLICATIONS
 do
         APP="$STARPU_EXAMPLES_DIR/$APP"
@@ -62,6 +69,7 @@ do
 			for CORETYPE in $CORETYPES
 			do	
 				sleep $SLEEP_SECS
+				echo "starting test" | festival --tts
 				date
 				PROFILE="$CORETYPE"_"$sched"_"$BASE"_"$FREQ"
 				echo $PROFILE
@@ -99,4 +107,10 @@ do
 		done
 	done
 done
-date
+date;
+
+nmcli n off
+sleep 10
+date | mail -s 'teste finalizado' alecrim@gmail.com 
+
+done 
